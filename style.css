@@ -1,0 +1,168 @@
+
+.title{
+	text-align: center;
+	color: white;
+	padding: 150px;
+	margin-bottom: 20px;
+	font-size: 80px;
+  	letter-spacing: 12px;
+  	font-family: Raleway;
+}
+
+.title__text{
+	background: linear-gradient(45deg,#12c2e9,#c471ed);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.button_1{
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button__1{
+	border: 2px solid #12c2e9;
+	font-size: 30px;
+	color: #12c2e9;
+	text-decoration: none;
+	width: 250px;
+	height: 60px;
+	border-radius: 25px;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.button__1::before,
+.button__1::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg,#12c2e9,#c471ed);
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+
+.button__1:after{
+	opacity: 1;
+	transition-delay: .2s;
+}
+
+.button__1:hover{
+	color: #fff;
+}
+.button__1:hover::before,
+.button__1:hover::after {
+	left: 0;
+}
+
+
+.button_2{
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button__2{
+	border: 2px solid #12c2e9;
+	font-size: 30px;
+	color: #12c2e9;
+	text-decoration: none;
+	width: 250px;
+	height: 60px;
+	border-radius: 25px;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.button__2::before,
+.button__2::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg,#12c2e9,#c471ed);
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+
+.button__2:after{
+	opacity: 1;
+	transition-delay: .2s;
+}
+
+.button__2:hover{
+	color: #fff;
+}
+.button__2:hover::before,
+:hover::after {
+	left: 0;
+}
+
+
+.button_3{
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.button__3{
+	border: 2px solid #12c2e9;
+	font-size: 30px;
+	color: #12c2e9;
+	text-decoration: none;
+	width: 250px;
+	height: 60px;
+	border-radius: 25px;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	transition: .5s;
+	overflow: hidden;
+}
+
+.button__3::before,
+.button__3::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(45deg,#12c2e9,#c471ed);
+	top: 0;
+	left: -100%;
+	opacity: .5;
+	transition: .3s;
+	z-index: -1;
+}
+
+.button__3:after{
+	opacity: 1;
+	transition-delay: .2s;
+}
+
+.button__3:hover{
+	color: #fff;
+}
+.button__3:hover::before,
+:hover::after {
+	left: 0;
+}
