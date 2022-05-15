@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math game - Game of life</title>
+    <script src="life.js"></script>
+    <link rel="stylesheet" href="life.css">
+    <link type="Image/x-icon" href="C:\Users\prose\OneDrive\Робочий стіл\site course\favicon.ico" rel="icon">
+</head>
+    <body bgcolor="#000">
+
+        <div class="rule">
+            <h1>Правила гри</h1>
+        </div>
+
+        <div class="full_rule">
+            <p class="first_rule"> 
+                1. Якщо в живої клітини два чи три живих сусіди – то вона лишається жити
+            </p>
+
+            <p class="second_rule">
+                2. Якщо в живої клітини один чи немає живих сусідів – то вона помирає від «самотності»
+            </p>
+
+            <p class="third_rule">
+                3. Якщо в живої клітини чотири та більше живих сусідів – вона помирає від «перенаселення»
+            </p>
+
+            <p class="fourth_rule">
+                4. Якщо в мертвої клітини рівно три живих сусіди – то вона оживає
+            </p>
+
+            <p class="about_gamer">
+                Гравець не бере прямої участі у грі,<br> а лише розставляє початкову конфігурацію «живих» клітин,<br> які потім взаємодіють відповідно до правил вже без його участі
+            </p>    
+        </div>
+
+        <div class="table-body"></div>
+        <button class="button-start">start</button>
+        <button class="button-stop">stop</button>
+    </body>
+</html>
